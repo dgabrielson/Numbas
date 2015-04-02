@@ -106,6 +106,8 @@ iframe {
 .matrix-input {
 	display: inline-block;
 	vertical-align: middle;
+	max-width: 100%;
+	overflow-x: auto;
 }
 .matrix-input table.matrix {
     width: auto;
@@ -628,6 +630,8 @@ div.part {
 	border: 1px dashed #999;
 	padding: 0.4em;
 	display: inline-block;
+	max-width: 100%;
+	overflow-x: auto;
 }
 
 .correct-answer .feedback-icon {
